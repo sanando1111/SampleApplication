@@ -6,7 +6,7 @@ public class IpValidator {
 
 	public static void main(String[] args) {
 
-		String ip = "I.Am.not.an+ip";
+		String ip = "000.12.12.034";
 		if (ip.chars().filter(s -> s == '.').count() == 3) {
 			String[] ipar = ip.split("\\.");
 			for (String i : ipar)
